@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>I love you</title>
+    <style>
+        body{
+            background-color: aliceblue;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .heart{
+            font-size: 10rem;
+            animation: heart .5s infinite alternate linear;
+            color: red;
+        }
+        @keyframes heart{
+            from{
+                transform: scale(.7);
+            }
+            to{
+                transform: scale(1);
+            }
+        }
+        .d{
+            font-size: 5rem;
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <div class="heart">&#x2764;</div>
+    <div class="d"><p>Жанымай ауырмай жүрші</p></div>
+</body>
+</html>
